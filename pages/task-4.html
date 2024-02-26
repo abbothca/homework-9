@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png" />
+  <link rel="manifest" href="../favicon/site.webmanifest" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="../js/script-4.js"></script>
+  <title>Home work #9</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Home work #8</h1>
+    <p class="autor">Хомич Любов</p>
+  </header>
+  <main class="main">
+    <h2>HW9 - "Просунута робота з функціями (2)"</h2>
+    <article>
+      <h3>4. А тепер зробіть всі свої методи з попередньої задачі прив'язаними до контексту свого об'єкту</h3>
+      <p>
+        Аби вони були захищені від перезапису об'єкту і їх можна було викликати в таймері.
+      </p>
+      <p>Приклад</p>
+      <pre>
+          <code>
+            let securedSelfIntroduce = // якийсь код
+            let securedSelfPrognose = // якийсь код
+            let securedSelfDescribeMyMood = *// якийсь код
+
+            setTimeout(securedSelfIntroduce, 1000); // виведе коректний результат
+            setTimeout(securedSelfPrognose, 2000); // виведе коректний результат
+            setTimeout(securedSelfDescribeMyMood, 3000); // виведе коректний результат            
+          </code>
+        </pre>
+    </article>
+    <article>
+      <h2>Звіт</h2>
+      <p>
+        Файл зі скриптами - <a href="../js/script-4.js" target="_blank">Скрипт</a>.
+      </p>
+      <p>
+        Старалася писати коментарі.
+      </p>
+    </article>
+  </main>
+</body>
+
+</html>

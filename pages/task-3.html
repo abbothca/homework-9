@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png" />
+  <link rel="manifest" href="../favicon/site.webmanifest" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="../js/script-3.js"></script>
+  <title>Home work #9</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Home work #8</h1>
+    <p class="autor">Хомич Любов</p>
+  </header>
+  <main class="main">
+    <h2>HW9 - "Просунута робота з функціями (2)"</h2>
+    <article>
+      <h3>3. Напишіть об'єкт в якому опишіть свої довільні властивості та довільні методи що ці властивості виводять.</code></h3>
+      <p>Приклад</p>
+      <pre>
+          <code>
+            let me = {
+              name: 'Mykola',
+              residency: 'Lviv',
+              gender: 'male',
+              age: 31,
+              hobby: 'crafting',
+              defaultMood: 'focused',
+              currentMood: 'sleepy',
+              introduce() {
+                console.log(`My name is ${this.name} and I live in ${this.residency}`);
+              },
+              prognose() {
+                console.log(`I hope that next year I'm gonna be ${this.age+1}`);
+              },
+              describeMyMood(){
+                console.log(`Mostly I'm ${this.defaultMood}, but now I'm ${this.currentMood}`);
+              }
+            }
+            
+            me.introduce();
+            me.prognose();
+            me.describeMyMood();            
+          </code>
+        </pre>
+        <p>
+          Можете описати скільки хочете властивостей і не менше 2 методів.
+        </p>
+        <p>
+          Не соромтесь)
+        </p>
+    </article>
+    <article>
+      <h2>Звіт</h2>
+      <p>
+        Файл зі скриптами - <a href="../js/script-3.js" target="_blank">Скрипт</a>.
+      </p>
+      <p>
+        Старалася писати коментарі.
+      </p>
+    </article>
+  </main>
+</body>
+
+</html>
