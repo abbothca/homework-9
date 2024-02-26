@@ -1,6 +1,6 @@
 "use strict";
 
-var order = {
+const order = {
     id: Symbol,
     date: new Date(2024, 1, 22, 1, 10),
     orderNumber: "340-332-4",
